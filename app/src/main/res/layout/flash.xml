@@ -7,8 +7,8 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="383dp"
+        android:layout_height="702dp"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="8dp"
@@ -18,58 +18,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/txtNomeSuper"
-            android:layout_width="match_parent"
-            android:layout_height="36dp"
-            android:fontFamily="serif"
-            android:text="@string/txtNome2"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#000000"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/txtCdnSuper"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:fontFamily="serif"
-            android:text="@string/Codn2"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#000000"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/txtEspecieSuper"
-            android:layout_width="match_parent"
-            android:layout_height="38dp"
-            android:fontFamily="serif"
-            android:text="@string/txtEspecie2"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#000000"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/txtHabilidade4"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:fontFamily="serif"
-            android:text="@string/txtHabilidade2"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#000000"
-            android:textSize="16sp" />
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="313dp"
+            android:layout_height="239dp"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="193dp"
-                android:layout_height="match_parent"
+                android:layout_width="207dp"
+                android:layout_height="254dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/txtEquip4"
+                    android:id="@+id/txtNomeF"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:fontFamily="serif"
+                    android:text="@string/txtNome2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtCodnF"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="serif"
+                    android:text="@string/Codn2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtEspecieF"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:fontFamily="serif"
+                    android:text="@string/txtEspecie2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtHabilidadeF"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:fontFamily="serif"
+                    android:text="@string/txtHabilidade2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtEquipF"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:fontFamily="serif"
@@ -78,28 +78,12 @@
                     android:textColor="#000000"
                     android:textSize="16sp" />
 
-                <TextView
-                    android:id="@+id/txtEquipDesc4"
-                    android:layout_width="match_parent"
-                    android:layout_height="57dp"
-                    android:fontFamily="serif"
-                    android:text="@string/txtEqDefi"
-                    android:textColor="#000000"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:id="@+id/txtEquipFunci4"
-                    android:layout_width="match_parent"
-                    android:layout_height="107dp"
-                    android:text="@string/txtEqFuncao"
-                    android:textColor="#000000"
-                    android:textSize="16sp" />
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imgSuper"
-                android:layout_width="0dp"
-                android:layout_height="300dp"
+                android:id="@+id/imgFlash"
+                android:layout_width="191dp"
+                android:layout_height="289dp"
                 android:layout_weight="1"
                 android:contentDescription="@string/descFlash"
                 app:srcCompat="@drawable/flash" />
@@ -107,9 +91,26 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txtVul4"
+            android:id="@+id/txtEquipDescF"
             android:layout_width="match_parent"
-            android:layout_height="91dp"
+            android:layout_height="69dp"
+            android:fontFamily="serif"
+            android:text="@string/txtEqDefi"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtEquipFunciF"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="@string/txtEqFuncao"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtVulF"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
             android:fontFamily="serif"
             android:text="@string/txtVulnerabilidade2"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -117,9 +118,9 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/txtNivel4"
+            android:id="@+id/txtNivelF"
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="99dp"
             android:fontFamily="serif"
             android:text="@string/txtAcesso2"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"

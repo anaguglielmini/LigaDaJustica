@@ -7,8 +7,8 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="377dp"
+        android:layout_height="703dp"
         android:layout_marginStart="6dp"
         android:layout_marginLeft="6dp"
         android:layout_marginTop="8dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtNome"
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:fontFamily="serif"
@@ -29,7 +29,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/txtCodn"
             android:layout_width="match_parent"
             android:layout_height="36dp"
             android:fontFamily="serif"
@@ -39,7 +39,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtEspecie"
             android:layout_width="match_parent"
             android:layout_height="34dp"
             android:fontFamily="serif"

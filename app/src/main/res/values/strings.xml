@@ -12,63 +12,89 @@
     <string name="btnSuper">Superman</string>
     <string name="btnVoltar">← Voltar</string>
 
-    //Vixen
-    <string name="txtNome">Nome: Mari McCabe</string>
+
+    //nomes
+    <string name="txtNome">Nome: Mari McCabe</string>//vixen
+    <string name="txtNome2">Nome: Barry Allen</string>//flash
+    <string name="txtNome3">Nome: Diana Prince</string>//mulher-maravilha
+    <string name="txtNome4">Nome: Clark Kent</string>//superman
+
+
+    //Codinomes
     <string name="Codn">Codinome: Vixen</string>
-    <string name="txtEspecie">Espécie: Humana</string>
-    <string name="txtHabilidade">Habilidade: Utiliza as habilidades de qualquer
-        animal que vive na Terra</string>
-
-    <string name="txtEquipamentoV">Equipamento: Totem Tantu</string>
-
-    <string name="txtEDV">Definição: Colar que ajuda a mexer no campo morfogenético,
-    fazendo com que Vixen possa virar animais</string>
-
-    <string name="txtEFV">Função: Canalizar poderes dos animais</string>
-
-    <string name="txtVul">Vulnerabilidade: ela nem sempre é capaz de controlar as
-        entradas do campo morfogenético, podendo absorver o comportamento animal indesejável,
-        como raiva instintiva</string>
-
-    <string name="txtNivel">Nível de acesso: 5</string>
-    <string name="descVixen">Vixen com os animais</string>
-
-
-    //Flash
-    <string name="txtNome2">Nome: </string>
     <string name="Codn2">Codinome: Flash</string>
-    <string name="txtEspecie2">Espécie: Humano</string>
-    <string name="txtHabilidade2">Habilidade:</string>
-    <string name="txtEquipamento2">Equipamento: </string>
-    <string name="txtEqDefi">Definição: </string>
-    <string name="txtEqFuncao">Função: </string>
-    <string name="txtVulnerabilidade2">Vulnerabilidade: </string>
-    <string name="txtAcesso2">Nível de acesso: 6</string>
+    <string name="Codn3">Codinome: Mulher-Maravilha</string>//mulher-maravilha
+    <string name="Codn4">Codinome: SuperMan</string>//superman
+
+
+    //Espécies
+    <string name="txtEspecie">Espécie: Humana</string>//vixen
+    <string name="txtEspecie2">Espécie: Humano</string>//flash
+    <string name="txtEspecie3">Espécie: Amazona</string>//mulher-maravilha
+    <string name="txtEspecie4">Espécie: Alienígena</string>//superman
+
+
+    //Habilidades
+    <string name="txtHabilidade">Habilidade: Utiliza as habilidades
+        de qualquer animal que vive na Terra</string>//vixen
+    <string name="txtHabilidade2">Habilidade: Corre muito rápido, mais
+        rápido que a velocidade da luz</string>//flash
+    <string name="txtHabilidade3">Habilidade: Super Força</string>//mulher-maravilha
+    <string name="txtHabilidade4">Habilidades: super-força, super-velocidade,
+        invulnerabilidade, sopro congelante, vôo, e visão de calor</string>//superman
+
+
+    //Nome dos equipamentos
+    <string name="txtEquipamentoV">Equipamento Principal: Totem Tantu</string>//vixen
+    <string name="txtEquipamento2">Equipamento Principal: Anel de Armazenamento</string>//flash
+    <string name="txtEquipamento3">Equipamentos Principais: Laço da Verdade, Braceletes
+        e Jato Invisível</string>//mulher-maravilha
+    <string name="txtEquipamento4">Equipamento Principal: Não possui</string>//superman
+
+
+    //Definição dos equipamentos
+    <string name="txtEDV">Definição: Colar que ajuda a mexer no campo morfogenético,
+    fazendo com que Vixen possa virar animais</string>//vixen
+    <string name="txtEqDefi">Definição: Trata o seu uniforme com químicas que contraem
+    a vestimenta quando recebe a carga elétrica do anel</string>//flash
+    <string name="txtEqDefi3">Definição: O laço da verdade faz com que todos que forem
+    laçados falem a verda. Os braceletes são capazes de gerar uma força tão grande quanto
+        os raios do Deus do Trovão .</string>//mulher-maravilha quando ela bate um contra o outro.
+    E o Jato invisível permite viagens sem ser percebido.
+
+
+    //Função dos equipamentos
+    <string name="txtEFV">Função: Canalizar poderes dos animais</string>//vixen
+    <string name="txtEqFuncao">Função: Encolhe o unifome</string>//flash
+    <string name="txtEqFuncao3">Função: Laço - Trazer a verdade // Braceletes - Dar
+        força // Jato - Transporte</string>//mulher-maravilha
+    <string name="txtEqFuncao4">Função: </string>//superman
+
+
+    //Vulnerabilidades
+    <string name="txtVul">Fraqueza: ela nem sempre é capaz de controlar as
+        entradas do campo morfogenético, podendo absorver o comportamento animal indesejável,
+        como raiva instintiva</string>//vixen
+    <string name="txtVulnerabilidade2">Fraqueza: Ao entrar em uma velocidade muito grande, Flash
+        pode acabar ficando preso entre as dimensões e tendo dificuldades para parar de correr e
+        para entrar nesta dimensão. Além disso, por sua grande velocidade, a sua mente e mais
+        rápida e aumenta seus reflexos ele não ver um borrao e bater em nada</string>//flash
+    <string name="txtVulnerabilidade3">Fraqueza: Apesar de usar um laço, se ela for
+    amarrada com corda ou com o próprio laço, perde sua grande força e fica indefesa</string>//mulher-maravilha
+    <string name="txtVulnerabilidade4">Fraqueza: Kryptonita</string>//superman
+
+
+    //Níveis de acesso
+    <string name="txtNivel">Nível de acesso: 5</string>//vixen
+    <string name="txtAcesso2">Nível de acesso: 6</string>//flash
+    <string name="txtAcesso3">Nível de acesso: 9</string>//mulher-maravilha
+    <string name="txtAcesso4">Nível de acesso: 7</string>//superman
+
+
+    //Descrição das imagens
+    <string name="descVixen">Vixen com os animais</string>
     <string name="descFlash">Flash correndo</string>
-
-
-    //Mulher-Maravilha
-    <string name="txtNome3">Nome: </string>
-    <string name="Codn3">Codinome: Mulher-Maravilha</string>
-    <string name="txtEspecie3">Espécie: Amazonas</string>
-    <string name="txtHabilidade3">Habilidade:</string>
-    <string name="txtEquipamento3">Equipamento: </string>
-    <string name="txtEqDefi3">Definição: </string>
-    <string name="txtEqFuncao3">Função: </string>
-    <string name="txtVulnerabilidade3">Vulnerabilidade: </string>
-    <string name="txtAcesso3">Nível de acesso: 9</string>
-    <string name="descMulher">Mulher-Maravilha defendendo balas com seu bracelete</string>
-
-    // Superman
-    <string name="txtNome4">Nome: Klarck Clant</string>
-    <string name="Codn4">Codinome: SuperMan</string>
-    <string name="txtEspecie4">Espécie:</string>
-    <string name="txtHabilidade4">Habilidade:</string>
-    <string name="txtEquipamento4">Equipamento: </string>
-    <string name="txtEqDefi4">Definição: </string>
-    <string name="txtEqFuncao4">Função: </string>
-    <string name="txtVulnerabilidade4">Vulnerabilidade: Crypptonita</string>
-    <string name="txtAcesso4">Nível de acesso: 8</string>
-    <string name="descSuper">Superman </string>
+    <string name="descMulher">Mulher-Maravilha defendendo balas com seu bracelete</string>//mulher-maravilha
+    <string name="descSuper">Superman </string>//superman
 
 </resources>
