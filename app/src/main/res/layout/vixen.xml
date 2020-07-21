@@ -65,8 +65,9 @@
 
             <ImageView
                 android:id="@+id/imgVixen"
-                android:layout_width="182dp"
+                android:layout_width="196dp"
                 android:layout_height="248dp"
+                android:contentDescription="@string/descVixen"
                 app:srcCompat="@drawable/vixen" />
 
             <LinearLayout

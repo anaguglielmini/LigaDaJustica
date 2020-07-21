@@ -19,9 +19,9 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/txtNomeFlash"
+            android:id="@+id/txtNomeSuper"
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="36dp"
             android:fontFamily="serif"
             android:text="@string/txtNome2"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -29,9 +29,9 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/txtCdnFlash"
+            android:id="@+id/txtCdnSuper"
             android:layout_width="match_parent"
-            android:layout_height="36dp"
+            android:layout_height="40dp"
             android:fontFamily="serif"
             android:text="@string/Codn2"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -39,9 +39,9 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/txtEspecieFlash"
+            android:id="@+id/txtEspecieSuper"
             android:layout_width="match_parent"
-            android:layout_height="34dp"
+            android:layout_height="38dp"
             android:fontFamily="serif"
             android:text="@string/txtEspecie2"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -49,7 +49,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/txtHabilidade2"
+            android:id="@+id/txtHabilidade4"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:fontFamily="serif"
@@ -60,24 +60,18 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="256dp"
+            android:layout_height="313dp"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/imgVixen2"
-                android:layout_width="182dp"
-                android:layout_height="248dp"
-                app:srcCompat="@drawable/vixen" />
-
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="193dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/txtEquip2"
+                    android:id="@+id/txtEquip4"
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
+                    android:layout_height="55dp"
                     android:fontFamily="serif"
                     android:text="@string/txtEquipamento2"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -85,38 +79,47 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:id="@+id/txtEquipDesc2"
+                    android:id="@+id/txtEquipDesc4"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="57dp"
                     android:fontFamily="serif"
                     android:text="@string/txtEqDefi"
                     android:textColor="#000000"
                     android:textSize="16sp" />
 
                 <TextView
-                    android:id="@+id/txtEquipFunci2"
+                    android:id="@+id/txtEquipFunci4"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="107dp"
                     android:text="@string/txtEqFuncao"
                     android:textColor="#000000"
                     android:textSize="16sp" />
             </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgSuper"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/descFlash"
+                app:srcCompat="@drawable/flash" />
+
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txtVul2"
+            android:id="@+id/txtVul4"
             android:layout_width="match_parent"
             android:layout_height="91dp"
             android:fontFamily="serif"
-            android:text="@string/txtVul"
+            android:text="@string/txtVulnerabilidade2"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#000000"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/txtNivel2"
+            android:id="@+id/txtNivel4"
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="42dp"
             android:fontFamily="serif"
             android:text="@string/txtAcesso2"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -124,7 +127,7 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/btnVoltar2"
+            android:id="@+id/btnVoltar"
             android:layout_width="106dp"
             android:layout_height="wrap_content"
             android:onClick="voltar"

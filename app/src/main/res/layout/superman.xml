@@ -1,6 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgSuper"
+                android:layout_width="147dp"
+                android:layout_height="219dp"
+                android:contentDescription="@string/descMulher"
+                app:srcCompat="@drawable/superman" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtNomeSuper"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:fontFamily="serif"
+                    android:text="@string/txtNome4"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtCdnSuper"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="serif"
+                    android:text="@string/Codn4"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtEspecieSuper"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:fontFamily="serif"
+                    android:text="@string/txtEspecie4"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtHabilidade4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="serif"
+                    android:text="@string/txtHabilidade4"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtEquip4"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="serif"
+            android:text="@string/txtEquipamento4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtEquipDesc4"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:fontFamily="serif"
+            android:text="@string/txtEqDefi4"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtEquipFunci4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/txtEqFuncao4"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtVul4"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:fontFamily="serif"
+            android:text="@string/txtVulnerabilidade4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtNivel4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="serif"
+            android:text="@string/txtAcesso4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:onClick="voltar"
+            android:text="@string/btnVoltar" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

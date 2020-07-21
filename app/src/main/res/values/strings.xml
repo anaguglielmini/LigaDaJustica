@@ -11,9 +11,6 @@
     <string name="btnMulher">Mulher-Maravilha</string>
     <string name="btnSuper">Superman</string>
     <string name="btnVoltar">← Voltar</string>
-    <string name="btnVoltar2">← Voltar</string>
-    <string name="btnVoltar3">← Voltar</string>
-    <string name="btnVoltar4">← Voltar</string>
 
     //Vixen
     <string name="txtNome">Nome: Mari McCabe</string>
@@ -34,6 +31,7 @@
         como raiva instintiva</string>
 
     <string name="txtNivel">Nível de acesso: 5</string>
+    <string name="descVixen">Vixen com os animais</string>
 
 
     //Flash
@@ -46,22 +44,24 @@
     <string name="txtEqFuncao">Função: </string>
     <string name="txtVulnerabilidade2">Vulnerabilidade: </string>
     <string name="txtAcesso2">Nível de acesso: 6</string>
+    <string name="descFlash">Flash correndo</string>
 
 
     //Mulher-Maravilha
     <string name="txtNome3">Nome: </string>
-    <string name="Codn3">Codinome:</string>
-    <string name="txtEspecie3">Espécie:</string>
+    <string name="Codn3">Codinome: Mulher-Maravilha</string>
+    <string name="txtEspecie3">Espécie: Amazonas</string>
     <string name="txtHabilidade3">Habilidade:</string>
     <string name="txtEquipamento3">Equipamento: </string>
     <string name="txtEqDefi3">Definição: </string>
     <string name="txtEqFuncao3">Função: </string>
     <string name="txtVulnerabilidade3">Vulnerabilidade: </string>
     <string name="txtAcesso3">Nível de acesso: 9</string>
+    <string name="descMulher">Mulher-Maravilha defendendo balas com seu bracelete</string>
 
     // Superman
-    <string name="txtNome4">Nome: </string>
-    <string name="Codn4">Codinome:</string>
+    <string name="txtNome4">Nome: Klarck Clant</string>
+    <string name="Codn4">Codinome: SuperMan</string>
     <string name="txtEspecie4">Espécie:</string>
     <string name="txtHabilidade4">Habilidade:</string>
     <string name="txtEquipamento4">Equipamento: </string>
@@ -69,5 +69,6 @@
     <string name="txtEqFuncao4">Função: </string>
     <string name="txtVulnerabilidade4">Vulnerabilidade: Crypptonita</string>
     <string name="txtAcesso4">Nível de acesso: 8</string>
+    <string name="descSuper">Superman </string>
 
 </resources>
