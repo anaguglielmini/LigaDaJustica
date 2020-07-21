@@ -11,24 +11,16 @@
     <string name="btnMulher">Mulher-Maravilha</string>
     <string name="btnSuper">Superman</string>
     <string name="btnVoltar">← Voltar</string>
+    <string name="btnVoltar2">← Voltar</string>
+    <string name="btnVoltar3">← Voltar</string>
+    <string name="btnVoltar4">← Voltar</string>
 
     //Vixen
     <string name="txtNome">Nome: Mari McCabe</string>
-
-    <string name="imgVixen">Vixen com os animais</string>
-
     <string name="Codn">Codinome: Vixen</string>
-
     <string name="txtEspecie">Espécie: Humana</string>
-
     <string name="txtHabilidade">Habilidade: Utiliza as habilidades de qualquer
         animal que vive na Terra</string>
-
-    <string name="txtVul">Vulnerabilidade: ela nem sempre é capaz de controlar as
-        entradas do campo morfogenético, podendo absorver o comportamento animal indesejável,
-        como raiva instintiva</string>
-
-    <string name="txtNivel">Nível de acesso: 5</string>
 
     <string name="txtEquipamentoV">Equipamento: Totem Tantu</string>
 
@@ -37,63 +29,45 @@
 
     <string name="txtEFV">Função: Canalizar poderes dos animais</string>
 
+    <string name="txtVul">Vulnerabilidade: ela nem sempre é capaz de controlar as
+        entradas do campo morfogenético, podendo absorver o comportamento animal indesejável,
+        como raiva instintiva</string>
+
+    <string name="txtNivel">Nível de acesso: 5</string>
+
+
     //Flash
-    <string name="txtNome2">Nome:</string>
-
-    <string name="Codn2">Codinome:</string>
-
-    <string name="txtEspecie2">Espécie:</string>
-
+    <string name="txtNome2">Nome: </string>
+    <string name="Codn2">Codinome: Flash</string>
+    <string name="txtEspecie2">Espécie: Humano</string>
     <string name="txtHabilidade2">Habilidade:</string>
-    <string name="txtHabilidadeF"></string>
+    <string name="txtEquipamento2">Equipamento: </string>
+    <string name="txtEqDefi">Definição: </string>
+    <string name="txtEqFuncao">Função: </string>
+    <string name="txtVulnerabilidade2">Vulnerabilidade: </string>
+    <string name="txtAcesso2">Nível de acesso: 6</string>
 
-    <string name="txtVulnerabilidadeF"></string>
-    <string name="txtAcessoF"></string>
-    <string name="txtEquipamentoF">Equipamento:</string>
-    <string name="txtENF"></string>
-    <string name="txtEDF"></string>
-    <string name="txtEFF"></string>
 
     //Mulher-Maravilha
-    <string name="txtNome3">Nome:</string>
-    <string name="txtNomeM"></string>
-
+    <string name="txtNome3">Nome: </string>
     <string name="Codn3">Codinome:</string>
-    <string name="txtCdnM"></string>
-
     <string name="txtEspecie3">Espécie:</string>
-    <string name="txtEspecieM">Amazonas</string>
-
     <string name="txtHabilidade3">Habilidade:</string>
-    <string name="txtHabilidadeM"></string>
-    <string name="txtVulnerabilidadeM"></string>
-    <string name="txtAcessoM"></string>
-    <string name="txtEquipamentoM">Equipamento:</string>
-    <string name="txtENM"></string>
-    <string name="txtEDM"></string>
-    <string name="txtEFM"></string>
+    <string name="txtEquipamento3">Equipamento: </string>
+    <string name="txtEqDefi3">Definição: </string>
+    <string name="txtEqFuncao3">Função: </string>
+    <string name="txtVulnerabilidade3">Vulnerabilidade: </string>
+    <string name="txtAcesso3">Nível de acesso: 9</string>
 
-    //Superman
-    <string name="txtNome4">Nome:</string>
-    <string name="txtNomeS"></string>
-
+    // Superman
+    <string name="txtNome4">Nome: </string>
     <string name="Codn4">Codinome:</string>
-    <string name="txtCdnS"></string>
-
     <string name="txtEspecie4">Espécie:</string>
-    <string name="txtEspecieS"></string>
-
     <string name="txtHabilidade4">Habilidade:</string>
-    <string name="txtHabilidadeS"></string>
-
-
-    <string name="txtVulnerabilidadeS"></string>
-
-
-    <string name="txtAcessoS"></string>
-    <string name="txtEquipamentoS">Equipamento:</string>
-    <string name="txtENS"></string>
-    <string name="txtEDS"></string>
-    <string name="txtEFS"></string>
+    <string name="txtEquipamento4">Equipamento: </string>
+    <string name="txtEqDefi4">Definição: </string>
+    <string name="txtEqFuncao4">Função: </string>
+    <string name="txtVulnerabilidade4">Vulnerabilidade: Crypptonita</string>
+    <string name="txtAcesso4">Nível de acesso: 8</string>
 
 </resources>

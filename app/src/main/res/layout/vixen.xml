@@ -67,7 +67,6 @@
                 android:id="@+id/imgVixen"
                 android:layout_width="182dp"
                 android:layout_height="248dp"
-                android:contentDescription="@string/imgVixen"
                 app:srcCompat="@drawable/vixen" />
 
             <LinearLayout
