@@ -75,10 +75,8 @@
     <string name="txtVul">Fraqueza: ela nem sempre é capaz de controlar as
         entradas do campo morfogenético, podendo absorver o comportamento animal indesejável,
         como raiva instintiva</string>//vixen
-    <string name="txtVulnerabilidade2">Fraqueza: Ao entrar em uma velocidade muito grande, Flash
-        pode acabar ficando preso entre as dimensões e tendo dificuldades para parar de correr e
-        para entrar nesta dimensão. Além disso, por sua grande velocidade, a sua mente e mais
-        rápida e aumenta seus reflexos ele não ver um borrao e bater em nada</string>//flash
+    <string name="txtVulnerabilidade2">Fraqueza: Ao entrar em uma velocidade muito grande,
+        pode ficar preso entre as dimensões e ter dificuldade em parar de correr</string>//flash
     <string name="txtVulnerabilidade3">Fraqueza: Apesar de usar um laço, se ela for
     amarrada com corda ou com o próprio laço, perde sua grande força e fica indefesa</string>//mulher-maravilha
     <string name="txtVulnerabilidade4">Fraqueza: Kryptonita</string>//superman

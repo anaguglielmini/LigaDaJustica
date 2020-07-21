@@ -12,28 +12,35 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
+        }
 
-    public void v(View view) {
+    public void v(View view) { //vixen
         Intent intent = new Intent(this, VixenActivity.class);
         startActivity(intent);
     }
 
-    public void f(View view) {
+    public void f(View view) { // flash
         Intent intent = new Intent(this, FlashActivity.class);
         startActivity(intent);
     }
-    public void m(View view) {
+
+    public void m(View view) { //mulher-maravilha
         Intent intent = new Intent(this, MulherActivity.class);
         startActivity(intent);
     }
-    public void s(View view) {
+
+    public void s(View view) { // superman
         Intent intent = new Intent(this, SupermanActivity.class);
         startActivity(intent);
     }
-    public void voltar(View view) {
-        Intent intent = new Intent(this, ComecoActivity.class);
+
+    public void voltar(View view){
+        Intent intent = new Intent(this, VoltarActivity.class);
         startActivity(intent);
     }
 }
+
+
+
+
 

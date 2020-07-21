@@ -2,12 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="356dp"
+        android:layout_height="620dp"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="30dp"
@@ -45,16 +46,16 @@
             <Button
                 android:id="@+id/btnVixen"
                 style="@style/Widget.AppCompat.Button.Small"
-                android:layout_width="210dp"
-                android:layout_height="match_parent"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
                 android:onClick="v"
                 android:text="@string/btnVixen" />
 
             <Button
                 android:id="@+id/btnFlash"
                 style="@style/Widget.AppCompat.Button.Small"
-                android:layout_width="210dp"
-                android:layout_height="match_parent"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
                 android:onClick="f"
                 android:text="@string/btnFlash" />
 
@@ -68,16 +69,16 @@
             <Button
                 android:id="@+id/btnMulher"
                 style="@style/Widget.AppCompat.Button.Small"
-                android:layout_width="210dp"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
                 android:onClick="m"
                 android:text="@string/btnMulher" />
 
             <Button
                 android:id="@+id/btnSuper"
                 style="@style/Widget.AppCompat.Button.Small"
-                android:layout_width="210dp"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
                 android:onClick="s"
                 android:text="@string/btnSuper" />
         </LinearLayout>
